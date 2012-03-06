@@ -8,6 +8,9 @@
     "type": "git",
     "url": "git://github.com/neochrome/simple-fsm.git"
   },
+	"bugs" : {
+		"url": "https://github.com/neochrome/simple-fsm/issues"
+	},
   "main": "./lib/simple-fsm.js",
   "scripts": {
     "test": "jasmine-node ./spec"
