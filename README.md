@@ -7,7 +7,7 @@ Install with:
 
 ### Usage
 
-		var fsm = require('simple-state');
+		var fsm = require('simple-fsm');
 		var machine = fsm.create({
 			OFF:{ toggle: function(){ this.ON(); } },
 			ON:{ toggle: function(){ this.OFF(); }}
