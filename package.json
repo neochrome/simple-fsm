@@ -20,7 +20,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-		"jasmine-node": ">=1.0.21"
+		"jasmine-node": "1.0.21"
 	},
   "optionalDependencies": {}
 }
