@@ -1,14 +1,18 @@
-simple-fsm - Create simple finite state machines
-===
+[![endorse](https://api.coderwall.com/neochrome/endorsecount.png)](https://coderwall.com/neochrome)
 
-Install with:
+# simple-fsm
+Create simple finite state machines
 
-    npm install simple-fsm
+### Installation
+```
+$ npm install simple-fsm
+```
 
 ### Usage
-
-		var fsm = require('simple-fsm');
-		var machine = fsm.create({
-			OFF:{ toggle: function(){ this.ON(); } },
-			ON:{ toggle: function(){ this.OFF(); }}
-		}).OFF(); // set the initial state to OFF
+```javascript
+var fsm = require('simple-fsm');
+var machine = fsm.create({
+	OFF:{ toggle: function(){ this.ON(); } },
+	ON:{ toggle: function(){ this.OFF(); } }
+}).OFF(); // set the initial state to OFF
+```
