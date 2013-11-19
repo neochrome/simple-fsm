@@ -2,25 +2,35 @@
   "author": "Johan Stenqvist",
   "name": "simple-fsm",
   "description": "Create simple finite state machines",
-	"keywords": ["simple", "fsm", "finite", "state", "machine"],
-  "version": "0.0.1",
+  "keywords": [
+    "simple",
+    "fsm",
+    "finite",
+    "state",
+    "machine"
+  ],
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/neochrome/simple-fsm.git"
   },
-	"bugs" : {
-		"url": "https://github.com/neochrome/simple-fsm/issues"
-	},
-  "main": "./lib/simple-fsm.js",
-  "scripts": {
-    "test": "jasmine-node ./spec"
+  "bugs": {
+    "url": "https://github.com/neochrome/simple-fsm/issues"
   },
-  "engines": {
-    "node": "*"
+  "main": "src/simple-fsm.js",
+  "scripts": {
+    "test": "grunt",
+		"start": "grunt watch"
   },
   "dependencies": {},
   "devDependencies": {
-		"jasmine-node": "1.0.21"
-	},
+    "jasmine-node": "~1.11.0",
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.11",
+    "grunt-jsonlint": "~1.0.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-jasmine-node": "~0.1.0"
+  },
   "optionalDependencies": {}
 }

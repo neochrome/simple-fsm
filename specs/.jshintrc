@@ -1,0 +1,18 @@
+{
+	"curly": true,
+	"quotmark": "single",
+	"smarttabs": true,
+	"trailing": true,
+	"undef": true,
+	"unused": true,
+	"node": true,
+	"globals": {
+		"describe": true,
+		"xdescribe": true,
+		"it": true,
+		"iit": true,
+		"xit": true,
+		"beforeEach": true,
+		"expect": true
+ }
+}

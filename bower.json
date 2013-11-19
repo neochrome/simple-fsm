@@ -1,0 +1,20 @@
+{
+  "name": "simple-fsm",
+  "description": "Create simple finite state machines",
+	"keywords": ["simple", "fsm", "finite", "state", "machine"],
+  "version": "1.0.0",
+  "homepage": "https://github.com/neochrome/simple-fsm",
+  "main": "src/simple-fsm.js",
+  "authors": [
+    "Johan Stenqvist"
+  ],
+  "license": "Public Domain",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "specs",
+    "package.json",
+    "*.md"
+  ]
+}
