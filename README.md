@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/neochrome/simple-fsm.png?branch=master)](https://travis-ci.org/neochrome/simple-fsm)
 [![endorse](https://api.coderwall.com/neochrome/endorsecount.png)](https://coderwall.com/neochrome)
 
 # simple-fsm
