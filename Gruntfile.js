@@ -38,6 +38,18 @@ module.exports = function( grunt ) {
 		jasmine_node: {
 			all: 'specs/**/*.spec.js',
 			forceExit: true
+		},
+		bump: {
+			options: {
+				files: ['package.json', 'bower.json'],
+				commit: true,
+				commitMessage: 'Release v%VERSION',
+				commitFiles: ['package.json', 'bower.json'],
+				createTag: true,
+				tagName: 'v%VERSION',
+				tagMessage: 'Version %VERSION',
+				push: false
+			}
 		}
 	});
 
@@ -45,6 +57,7 @@ module.exports = function( grunt ) {
 	grunt.loadNpmTasks('grunt-jsonlint');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-jasmine-node');
+	grunt.loadNpmTasks('grunt-bump');
 
 	grunt.registerTask('lint', ['jshint', 'jsonlint']);
 	grunt.registerTask('default', ['lint', 'jasmine_node']);

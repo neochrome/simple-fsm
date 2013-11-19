@@ -21,7 +21,7 @@
   "main": "src/simple-fsm.js",
   "scripts": {
     "test": "grunt",
-		"start": "grunt watch"
+    "start": "grunt watch"
   },
   "dependencies": {},
   "devDependencies": {
@@ -31,7 +31,8 @@
     "grunt-jsonlint": "~1.0.4",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-contrib-jshint": "~0.7.2",
-    "grunt-jasmine-node": "~0.1.0"
+    "grunt-jasmine-node": "~0.1.0",
+    "grunt-bump": "0.0.11"
   },
   "optionalDependencies": {}
 }
