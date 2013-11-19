@@ -2,6 +2,7 @@
   "author": "Johan Stenqvist",
   "name": "simple-fsm",
   "description": "Create simple finite state machines",
+  "homepage": "https://github.com/neochrome/simple-fsm",
   "keywords": [
     "simple",
     "fsm",
@@ -12,7 +13,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/neochrome/simple-fsm.git"
+    "url": "https://github.com/neochrome/simple-fsm.git"
   },
   "bugs": {
     "url": "https://github.com/neochrome/simple-fsm/issues"
