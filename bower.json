@@ -2,7 +2,7 @@
   "name": "simple-fsm",
   "description": "Create simple finite state machines",
 	"keywords": ["simple", "fsm", "finite", "state", "machine"],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/neochrome/simple-fsm",
   "main": "src/simple-fsm.js",
   "authors": [
