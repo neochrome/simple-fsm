@@ -11,6 +11,10 @@
   "license": "Public Domain",
   "ignore": [
     "**/.*",
-    "*"
+    "node_modules",
+		"specs",
+		"*.json",
+		"*.md",
+		"Gruntfile.js"
   ]
 }
