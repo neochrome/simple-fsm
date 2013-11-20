@@ -43,11 +43,11 @@ module.exports = function( grunt ) {
 			options: {
 				files: ['package.json', 'bower.json'],
 				commit: true,
-				commitMessage: 'Release v%VERSION',
+				commitMessage: 'Release v%VERSION%',
 				commitFiles: ['package.json', 'bower.json'],
 				createTag: true,
-				tagName: 'v%VERSION',
-				tagMessage: 'Version %VERSION',
+				tagName: 'v%VERSION%',
+				tagMessage: 'Version %VERSION%',
 				push: false
 			}
 		}
