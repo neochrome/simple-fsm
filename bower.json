@@ -11,10 +11,6 @@
   "license": "Public Domain",
   "ignore": [
     "**/.*",
-    "node_modules",
-    "bower_components",
-    "specs",
-    "package.json",
-    "*.md"
+    "*"
   ]
 }
